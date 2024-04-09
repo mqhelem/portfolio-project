@@ -6,3 +6,6 @@ h1 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
+.hero p {
+  font-size: 36px;
+}
