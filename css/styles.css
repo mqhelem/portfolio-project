@@ -5,7 +5,7 @@
 body .hero {
   background-color: var(--primary-color);
   text-align: center;
-  line-height: 20px;
+  line-height: 2;
   padding: 160px 20px;
 }
 h1 {
@@ -13,17 +13,22 @@ h1 {
   font-weight: 700;
   font-size: 96px;
 }
+h2 {
+  font-weight: normal;
+}
 
 .hero p {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: bold;
   font-family: "Poppins", sans-serif;
+  color: #272142;
 }
-.branding a {
+.btn-branding {
   background-color: var(--branding-color);
   color: white;
   padding: 15px 30px;
   font-size: 18px;
   line-height: 27px;
   text-decoration: none;
+  border-radius: 4px;
 }
