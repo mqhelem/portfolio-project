@@ -110,4 +110,10 @@ a {
 }
 .socials {
   margin-top: 20px;
+  text-align: center;
+}
+.back-home {
+  text-align: center;
+  margin: 50px auto;
+  display: block;
 }
