@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #cfd9df;
+  --primary-color: #f9f7fe;
   --branding-color: #6c63ff;
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
@@ -69,10 +69,16 @@ p {
   border-radius: 4px;
   border: 1px solid var(--branding-color);
 }
+.btn-projects:hover {
+  background-color: var(--branding-color);
+}
 .enquiry {
   background-color: var(--primary-color);
   padding: 20px 0 20px 100px;
   border-radius: 20px;
+}
+a {
+  text-decoration: none;
 }
 @media (max-width: 576px) {
   div.col.img {
@@ -103,6 +109,5 @@ p {
   }
 }
 .socials {
-  text-align: center;
   margin-top: 20px;
 }
