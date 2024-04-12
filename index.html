@@ -32,6 +32,40 @@
     <title>Portfolio Project</title>
   </head>
   <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nomqhele Mhlanga</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
     <div class="hero">
       <p>👋 Hello, I am</p>
       <h1>Nomqhele Mhlanga</h1>
@@ -40,29 +74,108 @@
         <a href="#" class="btn btn-branding mt-4">Contact me</a>
       </div>
     </div>
-    <div class="m-5 text-center">
-      <p>Featured Project which my best projects be choice to show</p>
+    <div class="m-md-5 text-center">
+      <p class="featured-projects p-2" style="font-size: 18px">
+        Featured projects are my best projects which I have completed so far
+      </p>
     </div>
+    <!-- projects -->
     <div class="container mb-5">
       <div class="row">
-        <div class="col-6">
+        <div class="col img">
           <img
-            src="/images/yoghurt.png"
+            src="/images/croissant.jpg"
             alt="Yoghurt"
+            class="img-fluid rounded shadow-md"
+            height="350"
+          />
+        </div>
+        <div class="col">
+          <div class="project-info p-3">
+            <h2 class="mt-md-2 pt-md-2">Croissant App</h2>
+            <p class="text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+            <a
+              href="https://croissantproj.netlify.app/"
+              class="btn btn-projects"
+              title="launch project"
+              >View project details</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="project-info p-3">
+            <h2 class="mt-md-2 pt-md-2">Weather App</h2>
+            <p class="text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+            <a
+              href="https://weatherfourcast.netlify.app/"
+              class="btn btn-projects"
+              title="Launch weather app"
+              >View project details</a
+            >
+          </div>
+        </div>
+        <div class="col img">
+          <img
+            src="/images/weather.png"
+            alt="weather app"
+            class="img-fluid rounded shadow-md"
+            height="350"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col img">
+          <img
+            src="/images/dictionary.png"
+            alt="dictionary"
             class="img-fluid"
             height="350"
           />
         </div>
-        <div class="col-6">
-          <h2 class="mt-5 pt-5">Yoghurt App</h2>
-          <p class="text-muted">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by
-          </p>
-          <a href="#" class="btn-projects">View detail project</a>
+        <div class="col">
+          <div class="project-info p-3">
+            <h2 class="mt-md-5 pt-md-5">Dictionary App</h2>
+            <p class="text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+            <a href="#" class="btn btn-projects">View project details</a>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- work enquiry & socials -->
+    <div class="container mb-md-5">
+      <div class="row enquiry">
+        <div class="col-md">
+          <h2>Work enquiry</h2>
+          <p>Let’s work together and I’ll help you by all my best</p>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="btn btn-branding mt-4">Let's talk here</a>
+        </div>
+      </div>
+    </div>
+    <div class="socials mb-5">
+      <p><strong>nomqhelem@gmail.com</strong></p>
+      <div>
+        <i class="fa fa-facebook me-2" aria-hidden="true"></i>
+        <i class="fa fa-twitter me-2" aria-hidden="true"></i>
+        <i class="fa fa-instagram me-2" aria-hidden="true"></i>
       </div>
     </div>
   </body>
