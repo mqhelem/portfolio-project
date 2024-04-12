@@ -59,7 +59,7 @@ p {
   color: black;
   background-color: var(--branding-color);
 }
-.btn-primary {
+.btn-projects {
   background-color: var(--primary-color);
   text-decoration: none;
   padding: 15px 30px;
