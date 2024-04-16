@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #f9f7fe;
-  --branding-color: #6c63ff;
+  --primary-color: #d5eeff;
+  --branding-color: #ff895d;
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
-  --secondary-color: #272142;
+  --secondary-color: #22313f;
   --navigation: #005689;
 }
 .hero {
@@ -24,7 +24,7 @@ h5,
 h6 {
   font-family: var(--heading-font);
   font-weight: 700;
-  color: #000;
+  color: var(--branding-color);
 }
 h2 {
   font-size: 64px;
@@ -81,6 +81,7 @@ p {
 }
 a {
   text-decoration: none;
+  color: #ff895d;
 }
 .top-space {
   padding: 160px 20px;
