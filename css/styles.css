@@ -80,11 +80,18 @@ p {
 a {
   text-decoration: none;
 }
+.top-space {
+  padding: 160px 20px;
+}
+.about-me {
+  line-height: 30px;
+}
 @media (max-width: 576px) {
   div.col.img {
     display: none;
   }
-  .project-info {
+  .project-info,
+  .top-space {
     text-align: center;
   }
   h1 {
