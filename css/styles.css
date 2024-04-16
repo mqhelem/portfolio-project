@@ -1,6 +1,6 @@
 :root {
   --primary-color: #d5eeff;
-  --branding-color: #ff895d;
+  --branding-color: grey;
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
   --secondary-color: #22313f;
@@ -81,7 +81,7 @@ p {
 }
 a {
   text-decoration: none;
-  color: #ff895d;
+  color: grey;
 }
 .top-space {
   padding: 160px 20px;
@@ -97,6 +97,8 @@ a {
   font-size: 24px;
   line-height: 36px;
   font-weight: 700;
+
+  color: grey;
 }
 @media (max-width: 576px) {
   div.col.img {
