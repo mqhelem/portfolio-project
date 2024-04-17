@@ -6,6 +6,12 @@
   --secondary-color: #22313f;
   --border-content: 6px solid var(--primary-color);
 }
+a.nav-link {
+  margin-right: 50px;
+}
+.navbar {
+  padding: 10px 30px;
+}
 .hero {
   background-color: var(--primary-color);
   text-align: center;
