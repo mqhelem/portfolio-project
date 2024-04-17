@@ -1,5 +1,6 @@
 :root {
   --primary-color: #d5eeff;
+  --navigation-color: #8ef6e4;
   --branding-color: #000;
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
@@ -8,6 +9,10 @@
 }
 a.nav-link {
   margin-right: 50px;
+}
+.nav-link.active {
+  font-weight: 500;
+  color: var(--navigation-color) !important;
 }
 .navbar {
   padding: 10px 30px;
