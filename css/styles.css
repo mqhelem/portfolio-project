@@ -1,10 +1,11 @@
 :root {
   --primary-color: #d5eeff;
-  --branding-color: grey;
+  --branding-color: #000;
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
   --secondary-color: #22313f;
   --navigation: #005689;
+  --border-content: 6px solid var(--primary-color);
 }
 .hero {
   background-color: var(--primary-color);
@@ -59,7 +60,7 @@ p {
 }
 .btn-branding:hover {
   color: black;
-  background-color: var(--branding-color);
+  background-color: var(--primary-color);
 }
 .btn-projects {
   margin: 20px 10px;
@@ -69,10 +70,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   border-radius: 4px;
-  border: 1px solid var(--branding-color);
+  border: 1px solid var(--primary-color);
 }
 .btn-projects:hover {
   background-color: var(--branding-color);
+  color: white;
 }
 .enquiry {
   background-color: var(--primary-color);
@@ -81,7 +83,10 @@ p {
 }
 a {
   text-decoration: none;
-  color: grey;
+  color: gray;
+}
+a:hover {
+  color: #000;
 }
 .top-space {
   padding: 160px 20px;
@@ -98,7 +103,10 @@ a {
   line-height: 36px;
   font-weight: 700;
 
-  color: grey;
+  color: #000;
+}
+.icons {
+  font-size: 24px;
 }
 @media (max-width: 576px) {
   div.col.img {
@@ -138,10 +146,12 @@ textarea {
   display: block;
   width: 100%;
   margin-bottom: 20px;
+  color: #000;
 }
 .socials {
   margin-top: 20px;
   text-align: center;
+  font-size: 24px;
 }
 .contact-socials {
   font-size: 40px;
