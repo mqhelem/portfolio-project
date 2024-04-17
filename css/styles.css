@@ -40,6 +40,9 @@ h6 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-size: 16px;
   font-family: var(--default-font);
@@ -89,8 +92,9 @@ p {
 }
 .enquiry {
   background-color: var(--primary-color);
-  padding: 20px 0 20px 100px;
   border-radius: 20px;
+  margin-top: 80px;
+  padding: 40px 10px;
 }
 a {
   text-decoration: none;
@@ -116,9 +120,37 @@ a:hover {
 
   color: #000;
 }
-.icons {
+footer .icons a {
+  background: var(--primary-color);
+  margin: 0 20px;
+  padding: 14px 18px;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 100ms ease-in-out;
+}
+footer .icons a:hover {
+  background-color: var(--branding-color);
+  color: var(--primary-color);
+}
+footer {
+  margin-top: 30px;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #000;
+}
+.socials {
+  margin-top: 20px;
+  text-align: center;
   font-size: 24px;
 }
+.contact-socials {
+  font-size: 40px;
+}
+
 @media (max-width: 576px) {
   div.col.img {
     display: none;
@@ -148,22 +180,4 @@ a:hover {
   .text-muted {
     font-size: 12px;
   }
-}
-label {
-  display: block;
-}
-input,
-textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 20px;
-  color: #000;
-}
-.socials {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 24px;
-}
-.contact-socials {
-  font-size: 40px;
 }
