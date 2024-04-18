@@ -94,7 +94,7 @@ p {
   background-color: var(--primary-color);
   border-radius: 20px;
   margin-top: 80px;
-  padding: 40px 10px;
+  padding: 40px 120px;
 }
 a {
   text-decoration: none;
@@ -104,7 +104,7 @@ a:hover {
   color: #000;
 }
 .top-space {
-  padding: 160px 20px;
+  padding: 160px 20px 20px;
 }
 .about-me {
   line-height: 30px;
@@ -149,6 +149,12 @@ textarea {
 }
 .contact-socials {
   font-size: 40px;
+  background-color: var(--primary-color);
+  padding: 13px;
+  border-radius: 50%;
+}
+footer {
+  text-align: center;
 }
 
 @media (max-width: 576px) {
@@ -166,6 +172,9 @@ textarea {
     font-size: 28px;
     margin-top: 0;
     padding: 0;
+  }
+  h4 {
+    font-size: 24px;
   }
   .hero,
   .top-space {
