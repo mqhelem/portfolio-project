@@ -21,7 +21,7 @@ a.nav-link {
   background-color: var(--primary-color);
   text-align: center;
   line-height: 2;
-  padding: 160px 20px;
+  padding: 80px 20px;
   margin: 0 auto;
 }
 h1 {
@@ -104,7 +104,7 @@ a:hover {
   color: #000;
 }
 .top-space {
-  padding: 160px 20px 20px;
+  padding: 80px 20px 20px;
 }
 .about-me {
   line-height: 30px;
